@@ -247,7 +247,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/11/04/解决Ubuntu-16-04-耳机没声音问题/" itemprop="url">解决Ubuntu 16.04 耳机没声音问题</a></h1>
+                <a class="post-title-link" href="/2017/11/04/解决Ubuntu-16-04-耳机没声音问题/" itemprop="url">Unbenannt</a></h1>
         
 
         <div class="post-meta">
@@ -259,7 +259,7 @@
               
                 <span class="post-meta-item-text">Veröffentlicht am</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-11-04T19:38:47+08:00">
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-11-04T19:53:36+08:00">
                 2017-11-04
               </time>
             
@@ -299,7 +299,11 @@
       
         
           
-            
+            <h1 id="解决Ubuntu-16-04-耳机没有声音的问题"><a href="#解决Ubuntu-16-04-耳机没有声音的问题" class="headerlink" title="解决Ubuntu 16.04 耳机没有声音的问题"></a>解决Ubuntu 16.04 耳机没有声音的问题</h1><p>本机的系统为Ubuntu 16.04 LTS 之前遇到的问题为系统有声音，但是音乐播放器和网页播放器没有声音。后置面板插拔一次就有，但是前面板怎么也没有声音。百度找了好多方法也没能彻底解决。 也算是缘分，今天找到了最终的办法。 在文章的最后我会附上链接，以此感谢他。</p>
+<p>首先安装pulseaudio音量控制软件<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo apt-get install pavucontrol</div></pre></td></tr></table></figure></p>
+<p>终端输入：pavucontrol 启动程序，<br>如图操作：<br><img src="http://img.blog.csdn.net/20171104194856149?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbWFqaWFiYW8xMQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="按照图片上操作"> </p>
+<p>接着选择“输入设备” Port 里选择“模拟耳机”<br><img src="http://img.blog.csdn.net/20171104195056402?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbWFqaWFiYW8xMQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述"><br>接下来应该就会有声音了的。</p>
+
           
         
       
